@@ -1,0 +1,35 @@
+name: Sync Google Sheet to JSON
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 3 * * *" # Cada día a las 03:00
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install node-fetch@2
+
+      - name: Fetch Google Sheet and generate JSON
+        run: node scripts/fetchSheet.js
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add public/data/capabilities.json
+          git commit -m "Update capabilities.json from Google Sheet" || echo "No changes to commit"
+          git push
