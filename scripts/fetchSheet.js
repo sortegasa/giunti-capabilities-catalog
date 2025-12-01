@@ -3,7 +3,7 @@
 import fs from "fs";
 import fetch from "node-fetch";
 
-const SPREADSHEET_ID = "TU_SPREADSHEET_ID_AQUI"; 
+const SPREADSHEET_ID = "1fH6yU4VynGkNG4f3IWu5CU_FCFvJNuF2SfNFkdD0mu0";
 const RANGE = "Sheet1!A1:O500";
 const API_KEY = process.env.GOOGLE_API_KEY;
 
