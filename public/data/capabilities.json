@@ -1,170 +1,240 @@
 [
   {
-    "ID": "ACC-001",
-    "Categoría": "Acceso y cuentas",
-    "Subcategoría": "Registro",
-    "Título": "Creación de cuenta",
-    "Descripción": "Permite crear una cuenta en giuntipsy.es mediante formulario con datos personales básicos.",
-    "Tags": "registro, acceso",
-    "Testing": "✔️",
-    "VOL": "✔️",
-    "Estado": "Confirmada",
-    "Notas": "Flujo estándar de registro."
+    "id": "ACC-001",
+    "category": "Acceso y cuentas",
+    "subcategory": "Registro",
+    "title": "Creación de cuenta",
+    "description": "Permite crear una cuenta en giuntipsy.es mediante formulario con datos personales básicos.",
+    "tags": [
+      "registro",
+      "acceso"
+    ],
+    "platforms": {
+      "GT": false,
+      "VOL": false
+    },
+    "status": "confirmed",
+    "notes": "Flujo estándar de registro."
   },
   {
-    "ID": "ACC-002",
-    "Categoría": "Acceso y cuentas",
-    "Subcategoría": "Registro",
-    "Título": "Confirmación por email",
-    "Descripción": "Tras el registro, se envía un correo para validar la cuenta mediante enlace de verificación.",
-    "Tags": "registro, seguridad",
-    "Testing": "✔️",
-    "VOL": "✔️",
-    "Estado": "Confirmada",
-    "Notas": "Comportamiento habitual."
+    "id": "ACC-002",
+    "category": "Acceso y cuentas",
+    "subcategory": "Registro",
+    "title": "Confirmación por email",
+    "description": "Tras el registro, se envía un correo para validar la cuenta mediante enlace de verificación.",
+    "tags": [
+      "registro",
+      "seguridad"
+    ],
+    "platforms": {
+      "GT": false,
+      "VOL": false
+    },
+    "status": "confirmed",
+    "notes": "Comportamiento habitual."
   },
   {
-    "ID": "ACC-003",
-    "Categoría": "Acceso y cuentas",
-    "Subcategoría": "Acceso inicial",
-    "Título": "Contraseña provisional",
-    "Descripción": "Tras la primera compra, el sistema envía una contraseña provisional para el primer acceso a Giunti Testing.",
-    "Tags": "seguridad, login",
-    "Testing": "✔️",
-    "VOL": "❌",
-    "Estado": "Confirmada",
-    "Notas": "Flujo específico de GT."
+    "id": "ACC-003",
+    "category": "Acceso y cuentas",
+    "subcategory": "Acceso inicial",
+    "title": "Contraseña provisional",
+    "description": "Tras la primera compra, el sistema envía una contraseña provisional para el primer acceso a Giunti Testing.",
+    "tags": [
+      "seguridad",
+      "login"
+    ],
+    "platforms": {
+      "GT": false,
+      "VOL": false
+    },
+    "status": "confirmed",
+    "notes": "Flujo específico de GT."
   },
   {
-    "ID": "ACC-004",
-    "Categoría": "Acceso y cuentas",
-    "Subcategoría": "Acceso inicial",
-    "Título": "Cambio obligatorio de contraseña",
-    "Descripción": "En el primer inicio de sesión, el sistema obliga al usuario a cambiar la contraseña provisional por una personalizada.",
-    "Tags": "seguridad, login",
-    "Testing": "✔️",
-    "VOL": "❌",
-    "Estado": "Confirmada",
-    "Notas": "GT fuerza cambio en el primer login."
+    "id": "ACC-004",
+    "category": "Acceso y cuentas",
+    "subcategory": "Acceso inicial",
+    "title": "Cambio obligatorio de contraseña",
+    "description": "En el primer inicio de sesión, el sistema obliga al usuario a cambiar la contraseña provisional por una personalizada.",
+    "tags": [
+      "seguridad",
+      "login"
+    ],
+    "platforms": {
+      "GT": false,
+      "VOL": false
+    },
+    "status": "confirmed",
+    "notes": "GT fuerza cambio en el primer login."
   },
   {
-    "ID": "ACC-005",
-    "Categoría": "Acceso y cuentas",
-    "Subcategoría": "Login",
-    "Título": "Inicio de sesión estándar",
-    "Descripción": "Permite iniciar sesión con email y contraseña en accesos posteriores.",
-    "Tags": "login, acceso",
-    "Testing": "✔️",
-    "VOL": "✔️",
-    "Estado": "Confirmada",
-    "Notas": "—"
+    "id": "ACC-005",
+    "category": "Acceso y cuentas",
+    "subcategory": "Login",
+    "title": "Inicio de sesión estándar",
+    "description": "Permite iniciar sesión con email y contraseña en accesos posteriores.",
+    "tags": [
+      "login",
+      "acceso"
+    ],
+    "platforms": {
+      "GT": false,
+      "VOL": false
+    },
+    "status": "confirmed",
+    "notes": "—"
   },
   {
-    "ID": "ACC-006",
-    "Categoría": "Acceso y cuentas",
-    "Subcategoría": "Idioma",
-    "Título": "Selector de idioma (antes del login)",
-    "Descripción": "Permite seleccionar el idioma desde la pantalla previa al inicio de sesión.",
-    "Tags": "idioma, accesibilidad",
-    "Testing": "✔️",
-    "VOL": "✔️",
-    "Estado": "Confirmada",
-    "Notas": "—"
+    "id": "ACC-006",
+    "category": "Acceso y cuentas",
+    "subcategory": "Idioma",
+    "title": "Selector de idioma (antes del login)",
+    "description": "Permite seleccionar el idioma desde la pantalla previa al inicio de sesión.",
+    "tags": [
+      "idioma",
+      "accesibilidad"
+    ],
+    "platforms": {
+      "GT": false,
+      "VOL": false
+    },
+    "status": "confirmed",
+    "notes": "—"
   },
   {
-    "ID": "ACC-007",
-    "Categoría": "Acceso y cuentas",
-    "Subcategoría": "Idioma",
-    "Título": "Selector de idioma en la plataforma",
-    "Descripción": "Permite cambiar el idioma desde el interior de la plataforma una vez logueado.",
-    "Tags": "idioma, interfaz",
-    "Testing": "✔️",
-    "VOL": "✔️",
-    "Estado": "Confirmada",
-    "Notas": "—"
+    "id": "ACC-007",
+    "category": "Acceso y cuentas",
+    "subcategory": "Idioma",
+    "title": "Selector de idioma en la plataforma",
+    "description": "Permite cambiar el idioma desde el interior de la plataforma una vez logueado.",
+    "tags": [
+      "idioma",
+      "interfaz"
+    ],
+    "platforms": {
+      "GT": false,
+      "VOL": false
+    },
+    "status": "confirmed",
+    "notes": "—"
   },
   {
-    "ID": "ACC-008",
-    "Categoría": "Acceso y cuentas",
-    "Subcategoría": "Recuperación",
-    "Título": "Recuperación de contraseña",
-    "Descripción": "Permite restablecer la contraseña mediante email cuando el usuario la olvida.",
-    "Tags": "seguridad, recuperación",
-    "Testing": "✔️",
-    "VOL": "✔️",
-    "Estado": "Confirmada",
-    "Notas": "—"
+    "id": "ACC-008",
+    "category": "Acceso y cuentas",
+    "subcategory": "Recuperación",
+    "title": "Recuperación de contraseña",
+    "description": "Permite restablecer la contraseña mediante email cuando el usuario la olvida.",
+    "tags": [
+      "seguridad",
+      "recuperación"
+    ],
+    "platforms": {
+      "GT": false,
+      "VOL": false
+    },
+    "status": "confirmed",
+    "notes": "—"
   },
   {
-    "ID": "ACC-009",
-    "Categoría": "Acceso y cuentas",
-    "Subcategoría": "Contraseña",
-    "Título": "Cambio de contraseña voluntario",
-    "Descripción": "El usuario puede cambiar su contraseña desde el perfil, no solo en el primer acceso.",
-    "Tags": "seguridad, perfil",
-    "Testing": "✔️",
-    "VOL": "✔️",
-    "Estado": "Confirmada",
-    "Notas": "—"
+    "id": "ACC-009",
+    "category": "Acceso y cuentas",
+    "subcategory": "Contraseña",
+    "title": "Cambio de contraseña voluntario",
+    "description": "El usuario puede cambiar su contraseña desde el perfil, no solo en el primer acceso.",
+    "tags": [
+      "seguridad",
+      "perfil"
+    ],
+    "platforms": {
+      "GT": false,
+      "VOL": false
+    },
+    "status": "confirmed",
+    "notes": "—"
   },
   {
-    "ID": "ACC-010",
-    "Categoría": "Acceso y cuentas",
-    "Subcategoría": "Perfil",
-    "Título": "Edición de perfil",
-    "Descripción": "Permite editar nombre, apellidos, email, género y otros campos personales.",
-    "Tags": "perfil, usuario",
-    "Testing": "✔️",
-    "VOL": "✔️",
-    "Estado": "Confirmada",
-    "Notas": "—"
+    "id": "ACC-010",
+    "category": "Acceso y cuentas",
+    "subcategory": "Perfil",
+    "title": "Edición de perfil",
+    "description": "Permite editar nombre, apellidos, email, género y otros campos personales.",
+    "tags": [
+      "perfil",
+      "usuario"
+    ],
+    "platforms": {
+      "GT": false,
+      "VOL": false
+    },
+    "status": "confirmed",
+    "notes": "—"
   },
   {
-    "ID": "ACC-011",
-    "Categoría": "Acceso y cuentas",
-    "Subcategoría": "Suscripción",
-    "Título": "Visualizar plan activo",
-    "Descripción": "El usuario puede ver el plan de suscripción y el número de usos disponibles desde su perfil.",
-    "Tags": "suscripción, plan",
-    "Testing": "✔️",
-    "VOL": "❌",
-    "Estado": "Confirmada",
-    "Notas": "Disponible en GT."
+    "id": "ACC-011",
+    "category": "Acceso y cuentas",
+    "subcategory": "Suscripción",
+    "title": "Visualizar plan activo",
+    "description": "El usuario puede ver el plan de suscripción y el número de usos disponibles desde su perfil.",
+    "tags": [
+      "suscripción",
+      "plan"
+    ],
+    "platforms": {
+      "GT": false,
+      "VOL": false
+    },
+    "status": "confirmed",
+    "notes": "Disponible en GT."
   },
   {
-    "ID": "ACC-012",
-    "Categoría": "Acceso y cuentas",
-    "Subcategoría": "Suscripción",
-    "Título": "Gestión de suscripción de créditos",
-    "Descripción": "Permite ampliar o renovar la suscripción de usos vinculada a los tests.",
-    "Tags": "suscripción, créditos",
-    "Testing": "✔️",
-    "VOL": "❌",
-    "Estado": "Confirmada",
-    "Notas": "GT funciona con consumos/“usos”."
+    "id": "ACC-012",
+    "category": "Acceso y cuentas",
+    "subcategory": "Suscripción",
+    "title": "Gestión de suscripción de créditos",
+    "description": "Permite ampliar o renovar la suscripción de usos vinculada a los tests.",
+    "tags": [
+      "suscripción",
+      "créditos"
+    ],
+    "platforms": {
+      "GT": false,
+      "VOL": false
+    },
+    "status": "confirmed",
+    "notes": "GT funciona con consumos/“usos”."
   },
   {
-    "ID": "ACC-013",
-    "Categoría": "Acceso y cuentas",
-    "Subcategoría": "Seguridad",
-    "Título": "Cierre de sesión",
-    "Descripción": "El usuario puede cerrar sesión manualmente desde el menú superior.",
-    "Tags": "seguridad, sesión",
-    "Testing": "✔️",
-    "VOL": "✔️",
-    "Estado": "Confirmada",
-    "Notas": "—"
+    "id": "ACC-013",
+    "category": "Acceso y cuentas",
+    "subcategory": "Seguridad",
+    "title": "Cierre de sesión",
+    "description": "El usuario puede cerrar sesión manualmente desde el menú superior.",
+    "tags": [
+      "seguridad",
+      "sesión"
+    ],
+    "platforms": {
+      "GT": false,
+      "VOL": false
+    },
+    "status": "confirmed",
+    "notes": "—"
   },
   {
-    "ID": "ACC-014",
-    "Categoría": "Acceso y cuentas",
-    "Subcategoría": "Seguridad",
-    "Título": "Expiración de sesión",
-    "Descripción": "El sistema expira la sesión tras un periodo de inactividad.",
-    "Tags": "seguridad, sesión",
-    "Testing": "No confirmado",
-    "VOL": "No confirmado",
-    "Estado": "Deducida",
-    "Notas": "No está explícito en el dossier."
+    "id": "ACC-014",
+    "category": "Acceso y cuentas",
+    "subcategory": "Seguridad",
+    "title": "Expiración de sesión",
+    "description": "El sistema expira la sesión tras un periodo de inactividad.",
+    "tags": [
+      "seguridad",
+      "sesión"
+    ],
+    "platforms": {
+      "GT": false,
+      "VOL": false
+    },
+    "status": "deduced",
+    "notes": "No está explícito en el dossier."
   }
 ]
