@@ -10,8 +10,8 @@
       "acceso"
     ],
     "platforms": {
-      "GT": false,
-      "VOL": false
+      "GT": "yes",
+      "VOL": "unknown"
     },
     "status": "confirmed",
     "notes": "Flujo estándar de registro."
@@ -27,8 +27,8 @@
       "seguridad"
     ],
     "platforms": {
-      "GT": false,
-      "VOL": false
+      "GT": "yes",
+      "VOL": "unknown"
     },
     "status": "confirmed",
     "notes": "Comportamiento habitual."
@@ -44,8 +44,8 @@
       "login"
     ],
     "platforms": {
-      "GT": false,
-      "VOL": false
+      "GT": "yes",
+      "VOL": "unknown"
     },
     "status": "confirmed",
     "notes": "Flujo específico de GT."
@@ -61,8 +61,8 @@
       "login"
     ],
     "platforms": {
-      "GT": false,
-      "VOL": false
+      "GT": "yes",
+      "VOL": "unknown"
     },
     "status": "confirmed",
     "notes": "GT fuerza cambio en el primer login."
@@ -78,8 +78,8 @@
       "acceso"
     ],
     "platforms": {
-      "GT": false,
-      "VOL": false
+      "GT": "yes",
+      "VOL": "unknown"
     },
     "status": "confirmed",
     "notes": "—"
@@ -95,8 +95,8 @@
       "accesibilidad"
     ],
     "platforms": {
-      "GT": false,
-      "VOL": false
+      "GT": "yes",
+      "VOL": "unknown"
     },
     "status": "confirmed",
     "notes": "—"
@@ -112,8 +112,8 @@
       "interfaz"
     ],
     "platforms": {
-      "GT": false,
-      "VOL": false
+      "GT": "yes",
+      "VOL": "unknown"
     },
     "status": "confirmed",
     "notes": "—"
@@ -129,8 +129,8 @@
       "recuperación"
     ],
     "platforms": {
-      "GT": false,
-      "VOL": false
+      "GT": "yes",
+      "VOL": "unknown"
     },
     "status": "confirmed",
     "notes": "—"
@@ -146,8 +146,8 @@
       "perfil"
     ],
     "platforms": {
-      "GT": false,
-      "VOL": false
+      "GT": "yes",
+      "VOL": "unknown"
     },
     "status": "confirmed",
     "notes": "—"
@@ -163,8 +163,8 @@
       "usuario"
     ],
     "platforms": {
-      "GT": false,
-      "VOL": false
+      "GT": "yes",
+      "VOL": "unknown"
     },
     "status": "confirmed",
     "notes": "—"
@@ -180,11 +180,11 @@
       "plan"
     ],
     "platforms": {
-      "GT": false,
-      "VOL": false
+      "GT": "yes",
+      "VOL": "unknown"
     },
     "status": "confirmed",
-    "notes": "Disponible en GT."
+    "notes": null
   },
   {
     "id": "ACC-012",
@@ -197,8 +197,8 @@
       "créditos"
     ],
     "platforms": {
-      "GT": false,
-      "VOL": false
+      "GT": "yes",
+      "VOL": "unknown"
     },
     "status": "confirmed",
     "notes": "GT funciona con consumos/“usos”."
@@ -214,8 +214,8 @@
       "sesión"
     ],
     "platforms": {
-      "GT": false,
-      "VOL": false
+      "GT": "yes",
+      "VOL": "unknown"
     },
     "status": "confirmed",
     "notes": "—"
@@ -231,10 +231,10 @@
       "sesión"
     ],
     "platforms": {
-      "GT": false,
-      "VOL": false
+      "GT": "unknown",
+      "VOL": "unknown"
     },
     "status": "deduced",
-    "notes": "No está explícito en el dossier."
+    "notes": null
   }
 ]
