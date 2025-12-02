@@ -7,18 +7,35 @@ const SPREADSHEET_ID = "1fH6yU4VynGkNG4f3IWu5CU_FCFvJNuF2SfNFkdD0mu0";
 const RANGE = "Sheet1!A1:O500";
 const API_KEY = process.env.GOOGLE_API_KEY;
 
-function normalizeBoolean(value) {
-  if (!value) return false;
-  const val = value.toString().trim().toLowerCase();
-  return val === "✔️" || val === "true" || val === "sí" || val === "yes";
+/**
+ * Normaliza valores de plataforma:
+ * SI → "yes"
+ * NO → "no"
+ * N/A → "na"
+ * ? → "unknown"
+ */
+function normalizePlatformValue(value) {
+  if (!value) return "unknown"; // por si viene vacío
+
+  const val = value.toString().trim().toUpperCase();
+
+  if (val === "SI") return "yes";
+  if (val === "NO") return "no";
+  if (val === "N/A" || val === "NA") return "na";
+  if (val === "?" || val === "NS") return "unknown";
+
+  return "unknown"; // fallback
 }
 
+/**
+ * Normaliza el estado textual
+ */
 function normalizeStatus(s) {
   if (!s) return "unknown";
   s = s.toLowerCase();
   if (s.includes("confirmada")) return "confirmed";
   if (s.includes("deducida")) return "deduced";
-  if (s.includes("no confirmado")) return "not_confirmed";
+  if (s.includes("pendiente")) return "pending";
   return s;
 }
 
@@ -27,6 +44,7 @@ async function main() {
     RANGE
   )}?key=${API_KEY}`;
 
+  console.log("Fetching Google Sheet…");
   const res = await fetch(url);
   const data = await res.json();
 
@@ -53,8 +71,8 @@ async function main() {
         ? o["Tags"].split(",").map((t) => t.trim())
         : [],
       platforms: {
-        GT: normalizeBoolean(o["Plataforma A"]),
-        VOL: normalizeBoolean(o["Plataforma B"])
+        GT: normalizePlatformValue(o["Testing"]),
+        VOL: normalizePlatformValue(o["VOL"])
       },
       status: normalizeStatus(o["Estado"]),
       notes: o["Notas"] || null
@@ -62,6 +80,7 @@ async function main() {
   });
 
   fs.mkdirSync("./public/data", { recursive: true });
+
   fs.writeFileSync(
     "./public/data/capabilities.json",
     JSON.stringify(output, null, 2)
