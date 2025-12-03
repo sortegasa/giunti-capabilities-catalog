@@ -235,7 +235,7 @@
       "VOL": "unknown"
     },
     "status": "deduced",
-    "notes": null
+    "notes": "No comprobado todavía"
   },
   {
     "id": "ACC-015",
@@ -254,5 +254,622 @@
     },
     "status": "unknown",
     "notes": null
+  },
+  {
+    "id": "ACC-016",
+    "category": "Acceso y cuentas",
+    "subcategory": "Login",
+    "title": "Mensajes de error detallados",
+    "description": "La plataforma muestra mensajes específicos indicando si el error proviene de email incorrecto, contraseña incorrecta, formato inválido, cuenta no activada, etc.",
+    "tags": [
+      "seguridad",
+      "acceso",
+      "login"
+    ],
+    "platforms": {
+      "GT": "unknown",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": null
+  },
+  {
+    "id": "ACC-017",
+    "category": "Acceso y cuentas",
+    "subcategory": "Login",
+    "title": "Mensajes de error genéricos",
+    "description": "La plataforma oculta información sensible mostrando un error genérico (“Credenciales incorrectas”) sin indicar si el usuario existe o si la contraseña es incorrecta.",
+    "tags": [
+      "seguridad",
+      "login",
+      "protección"
+    ],
+    "platforms": {
+      "GT": "unknown",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Importante para evitar enumeración de usuarios."
+  },
+  {
+    "id": "ACC-018",
+    "category": "Acceso y cuentas",
+    "subcategory": "Login",
+    "title": "Validación de formato en login",
+    "description": "Control de formato del email y otros campos antes de enviar el formulario, evitando errores innecesarios y peticiones inválidas.",
+    "tags": [
+      "usabilidad",
+      "acceso",
+      "validación"
+    ],
+    "platforms": {
+      "GT": "unknown",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Verificar si valida email antes de enviar."
+  },
+  {
+    "id": "ACC-019",
+    "category": "Acceso y cuentas",
+    "subcategory": "Login",
+    "title": "Límite de intentos fallidos",
+    "description": "Sistema que detecta múltiples intentos fallidos y activa medidas de protección (captcha, bloqueo temporal, etc.).",
+    "tags": [
+      "seguridad",
+      "protección",
+      "login"
+    ],
+    "platforms": {
+      "GT": "unknown",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": null
+  },
+  {
+    "id": "ACC-020",
+    "category": "Acceso y cuentas",
+    "subcategory": "Login",
+    "title": "Bloqueo temporal",
+    "description": "La cuenta o el acceso se bloquea temporalmente tras múltiples intentos fallidos para evitar ataques automatizados.",
+    "tags": [
+      "seguridad",
+      "protección"
+    ],
+    "platforms": {
+      "GT": "unknown",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Revisar si el sistema bloquea tras varios intentos."
+  },
+  {
+    "id": "ACC-021",
+    "category": "Acceso y cuentas",
+    "subcategory": "Login",
+    "title": "Aviso de cuenta no activada",
+    "description": "Mensaje específico cuando la cuenta existe pero no ha sido confirmada mediante el email inicial.",
+    "tags": [
+      "onboarding",
+      "acceso"
+    ],
+    "platforms": {
+      "GT": "unknown",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Puede aparecer si el usuario no ha confirmado el email."
+  },
+  {
+    "id": "ACC-022",
+    "category": "Acceso y cuentas",
+    "subcategory": "Login",
+    "title": "Aviso de cuenta inactiva o suspendida",
+    "description": "Control que informa al usuario si su cuenta ha sido desactivada, suspendida o caducada.",
+    "tags": [
+      "seguridad",
+      "gestión",
+      "acceso"
+    ],
+    "platforms": {
+      "GT": "unknown",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "No descrito; revisar si la plataforma contempla usuarios suspendidos."
+  },
+  {
+    "id": "ACC-023",
+    "category": "Acceso y cuentas",
+    "subcategory": "Login",
+    "title": "Reintentos ilimitados",
+    "description": "La plataforma permite intentos de acceso ilimitados sin activar mecanismos de bloqueo.",
+    "tags": [
+      "seguridad",
+      "login"
+    ],
+    "platforms": {
+      "GT": "unknown",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Revisar si existe límite o no."
+  },
+  {
+    "id": "ACC-024",
+    "category": "Acceso y cuentas",
+    "subcategory": "Login",
+    "title": "Captcha o sistema anti-bot",
+    "description": "La plataforma incorpora mecanismos para evitar accesos automatizados (captcha, recaptcha, etc.).",
+    "tags": [
+      "seguridad",
+      "bot-protection"
+    ],
+    "platforms": {
+      "GT": "unknown",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": null
+  },
+  {
+    "id": "USR-001",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Listado",
+    "title": "Visualizar listado de personas",
+    "description": "La plataforma muestra una tabla con todas las personas creadas, incluso si aún no existen registros iniciales.",
+    "tags": [
+      "listado",
+      "usuarios"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Estado vacío visible antes de crear usuarios."
+  },
+  {
+    "id": "USR-002",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Listado",
+    "title": "Búsqueda de personas",
+    "description": "Permite buscar personas mediante un campo de texto para filtrar resultados en la tabla.",
+    "tags": [
+      "búsqueda",
+      "usuarios"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Buscar por nombre, apellidos o código."
+  },
+  {
+    "id": "USR-003",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Listado",
+    "title": "Paginación en listado de personas",
+    "description": "La tabla de personas incorpora paginación para navegar por múltiples páginas de resultados.",
+    "tags": [
+      "paginación",
+      "usuarios"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Paginación automática en tablas."
+  },
+  {
+    "id": "USR-004",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Listado",
+    "title": "Estado vacío en listado",
+    "description": "La plataforma muestra un estado vacío (“no hay resultados”) cuando aún no existen personas creadas.",
+    "tags": [
+      "usabilidad",
+      "estados"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Estado inicial antes de crear registros."
+  },
+  {
+    "id": "USR-005",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Creación",
+    "title": "Crear usuario individual",
+    "description": "Permite crear un usuario introduciendo datos personales y de contacto desde un formulario dedicado.",
+    "tags": [
+      "usuario",
+      "creación"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Acceso desde botón “Crear un usuario”."
+  },
+  {
+    "id": "USR-006",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Creación",
+    "title": "Código de usuario autogenerado",
+    "description": "El sistema genera automáticamente un código único con formato people-XXXX, editable por el usuario.",
+    "tags": [
+      "usuarios",
+      "identificación"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Campo obligatorio."
+  },
+  {
+    "id": "USR-007",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Validación",
+    "title": "Validación del código de usuario",
+    "description": "El código de usuario es obligatorio; la plataforma impide continuar si se borra o está vacío.",
+    "tags": [
+      "validación",
+      "obligatorio"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Validación crítica del identificador."
+  },
+  {
+    "id": "USR-008",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Creación",
+    "title": "Campos principales del usuario",
+    "description": "El formulario incluye nombre, apellidos, email, fecha de nacimiento y género como datos principales.",
+    "tags": [
+      "usuarios",
+      "formulario"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Campos principales de perfil."
+  },
+  {
+    "id": "USR-009",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Creación",
+    "title": "Selector de género",
+    "description": "Permite seleccionar género mediante desplegable (Hombre / Mujer).",
+    "tags": [
+      "usuario",
+      "perfil"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Selector obligatorio. Necesita ser ampliado"
+  },
+  {
+    "id": "USR-010",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Formulario",
+    "title": "Campos secundarios opcionales",
+    "description": "Incluye país, nacionalidad, ciudad, dirección, teléfono, ocupación, educación y notas como campos opcionales.",
+    "tags": [
+      "usuarios",
+      "formulario"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Campos complementarios."
+  },
+  {
+    "id": "USR-011",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Formulario",
+    "title": "Selector de educación",
+    "description": "Selector con buscador para elegir nivel educativo (ESO, Bachillerato, Ciclo Formativo, etc.).",
+    "tags": [
+      "usuarios",
+      "educación"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Selector con búsqueda integrada."
+  },
+  {
+    "id": "USR-012",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Formulario",
+    "title": "Selector de ocupación",
+    "description": "Selector con buscador para elegir rol ocupacional (empleado, técnico, empresario, etc.).",
+    "tags": [
+      "usuarios",
+      "ocupación"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Selector de tipo autocomplete."
+  },
+  {
+    "id": "USR-013",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Formulario",
+    "title": "Notas de usuario",
+    "description": "Campo textarea para introducir información adicional del usuario.",
+    "tags": [
+      "usuario",
+      "notas"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Campo libre."
+  },
+  {
+    "id": "USR-014",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Importación",
+    "title": "Importar usuarios desde CSV",
+    "description": "Permite importar múltiples usuarios mediante archivo CSV.",
+    "tags": [
+      "usuarios",
+      "importación"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Importación masiva."
+  },
+  {
+    "id": "USR-015",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Importación",
+    "title": "Selección de separador CSV",
+    "description": "Permite elegir el separador del CSV (coma o punto y coma) antes de importar.",
+    "tags": [
+      "importación",
+      "csv"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Soporta varios formatos."
+  },
+  {
+    "id": "USR-016",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Importación",
+    "title": "Descargar plantilla de importación",
+    "description": "Permite descargar un archivo CSV de ejemplo para preparar el fichero de importación.",
+    "tags": [
+      "importación",
+      "csv"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Plantilla de datos."
+  },
+  {
+    "id": "USR-017",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Grupos",
+    "title": "Añadir usuario a grupos",
+    "description": "Permite asignar el usuario creado a uno o varios grupos desde su ficha.",
+    "tags": [
+      "usuarios",
+      "grupos"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Desde sección dedicada en el formulario."
+  },
+  {
+    "id": "USR-018",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Grupos",
+    "title": "Búsqueda de grupos en modal",
+    "description": "La modal permite buscar grupos mediante texto.",
+    "tags": [
+      "grupos",
+      "búsqueda"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Buscador interno."
+  },
+  {
+    "id": "USR-019",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Grupos",
+    "title": "Selección de grupo en lista",
+    "description": "La selección de grupos se realiza desde una lista paginada dentro de la modal.",
+    "tags": [
+      "grupos",
+      "selección"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Paginación incluida."
+  },
+  {
+    "id": "USR-020",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Grupos",
+    "title": "Seleccionar todos los grupos de la página",
+    "description": "La modal incluye un switch para seleccionar todos los grupos visibles en esa página.",
+    "tags": [
+      "grupos",
+      "selección múltiple"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Selección por batch de página."
+  },
+  {
+    "id": "USR-021",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Grupos",
+    "title": "Visualizar grupos",
+    "description": "Listado de grupos en pestaña dedicada, con tabla y paginación.",
+    "tags": [
+      "grupos",
+      "listado"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Estado inicial sin grupos."
+  },
+  {
+    "id": "USR-022",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Grupos",
+    "title": "Crear grupo",
+    "description": "Permite crear un nuevo grupo desde una pantalla dedicada.",
+    "tags": [
+      "grupos",
+      "creación"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Botón “Crear grupo”. No se puede crear grupo si no añades al menos un usuario"
+  },
+  {
+    "id": "USR-023",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Grupos",
+    "title": "Validación del nombre del grupo",
+    "description": "El nombre del grupo es obligatorio; el botón “Crear grupo” se mantiene deshabilitado si no se completa.",
+    "tags": [
+      "validación",
+      "grupos"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Validación crítica."
+  },
+  {
+    "id": "USR-024",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Grupos",
+    "title": "Notas de grupo",
+    "description": "Campo textarea para añadir notas informativas al grupo.",
+    "tags": [
+      "grupos",
+      "notas"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Campo libre."
+  },
+  {
+    "id": "USR-025",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Grupos",
+    "title": "Importar usuarios al grupo",
+    "description": "Permite importar usuarios a un grupo vía archivo CSV desde la pantalla de creación del grupo.",
+    "tags": [
+      "grupos",
+      "importación"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Importación masiva dentro del grupo."
+  },
+  {
+    "id": "USR-026",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Grupos",
+    "title": "Añadir usuarios a grupo",
+    "description": "Permite seleccionar uno o varios usuarios desde una modal con buscador y paginación.",
+    "tags": [
+      "grupos",
+      "usuarios"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Selección múltiple desde modal."
+  },
+  {
+    "id": "USR-027",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Grupos",
+    "title": "Seleccionar todos los usuarios de la página",
+    "description": "La modal para añadir usuarios permite seleccionar todos los usuarios visibles mediante un switch.",
+    "tags": [
+      "grupos",
+      "selección múltiple"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Batch selection por página."
   }
 ]
