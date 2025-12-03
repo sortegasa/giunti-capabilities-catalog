@@ -236,5 +236,23 @@
     },
     "status": "deduced",
     "notes": null
+  },
+  {
+    "id": "ACC-015",
+    "category": "Acceso y cuentas",
+    "subcategory": "Login",
+    "title": "Manejo de errores de acceso",
+    "description": "Mecanismos de control y mensajes cuando los datos de acceso son incorrectos (usuario inexistente, contraseña errónea, formato inválido, cuenta no activada, etc.).",
+    "tags": [
+      "seguridad",
+      "acceso",
+      "login"
+    ],
+    "platforms": {
+      "GT": "unknown",
+      "VOL": "unknown"
+    },
+    "status": "unknown",
+    "notes": null
   }
 ]
