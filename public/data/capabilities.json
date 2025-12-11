@@ -1692,5 +1692,517 @@
     },
     "status": "confirmed",
     "notes": "Contenido reducido a URL del proyecto y código de usuario."
+  },
+  {
+    "id": "APP-001",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Manual",
+    "title": "Insertar respuestas manualmente",
+    "description": "Permite introducir manualmente todas las respuestas del test directamente desde la plataforma.",
+    "tags": [
+      "manual",
+      "respuestas"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Acceso mediante “Insertar respuestas”."
+  },
+  {
+    "id": "APP-002",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Manual",
+    "title": "Datos previos del evaluado",
+    "description": "Formulario previo con datos personales, profesionales o contextuales del evaluado antes de introducir respuestas.",
+    "tags": [
+      "datos",
+      "formulario",
+      "manual"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Campos variables según test."
+  },
+  {
+    "id": "APP-003",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Manual",
+    "title": "Validación de respuestas",
+    "description": "Valida cada respuesta según el rango permitido (ej. mínimo 1, máximo 5).",
+    "tags": [
+      "manual",
+      "validación"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Control en cada ítem del test."
+  },
+  {
+    "id": "APP-004",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Manual",
+    "title": "Guardar sin finalizar",
+    "description": "Permite guardar el avance del formulario sin enviar ni puntuar el test.",
+    "tags": [
+      "manual",
+      "guardar"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Botón “Guardar”."
+  },
+  {
+    "id": "APP-005",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Manual",
+    "title": "Finalizar aplicación manual",
+    "description": "Inicia el proceso de puntuación cuando se han completado las respuestas.",
+    "tags": [
+      "finalizar",
+      "manual"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Acceso mediante botón “Puntuación”."
+  },
+  {
+    "id": "APP-006",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Presencial",
+    "title": "Pantalla de bienvenida",
+    "description": "Muestra un mensaje de bienvenida al evaluado antes de comenzar el test presencial.",
+    "tags": [
+      "presencial",
+      "bienvenida"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "El evaluado hace clic en “Continuar”."
+  },
+  {
+    "id": "APP-007",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Presencial",
+    "title": "Entrada de datos personales",
+    "description": "El evaluado completa datos básicos antes de responder el test.",
+    "tags": [
+      "presencial",
+      "datos"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Campos obligatorios marcados con *."
+  },
+  {
+    "id": "APP-008",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Presencial",
+    "title": "Navegación por ítems",
+    "description": "El evaluado navega de pregunta en pregunta directamente en la pantalla.",
+    "tags": [
+      "presencial",
+      "navegación"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Navegación estándar del test."
+  },
+  {
+    "id": "APP-009",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Presencial",
+    "title": "Finalizar o revisar test",
+    "description": "El evaluado puede finalizar la prueba o revisar sus respuestas antes de enviarla.",
+    "tags": [
+      "presencial",
+      "finalizar"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Botones “Finalizar” o “Cancelar”."
+  },
+  {
+    "id": "APP-010",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Remoto",
+    "title": "Envío de email con texto editable",
+    "description": "Permite editar el texto del correo antes de enviarlo al evaluado en modo remoto.",
+    "tags": [
+      "remoto",
+      "email"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Edición previa al envío."
+  },
+  {
+    "id": "APP-011",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Remoto",
+    "title": "Enlace único para el evaluado",
+    "description": "El evaluado recibe un enlace que le lleva directamente al portal donde realizará el test.",
+    "tags": [
+      "remoto",
+      "enlace"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Acceso mediante botón del email."
+  },
+  {
+    "id": "APP-012",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Remoto",
+    "title": "Portal remoto de evaluación",
+    "description": "El evaluado accede a un portal dedicado donde rellena datos, responde el test y finaliza la aplicación.",
+    "tags": [
+      "remoto",
+      "portal"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Portal de evaluación totalmente funcional."
+  },
+  {
+    "id": "APP-013",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Remoto",
+    "title": "Validación de datos personales",
+    "description": "El evaluado debe introducir y validar sus datos antes de comenzar el test.",
+    "tags": [
+      "remoto",
+      "datos"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Campos obligatorios visibles."
+  },
+  {
+    "id": "APP-014",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Remoto",
+    "title": "Finalización remota del test",
+    "description": "El evaluado puede revisar o finalizar sus respuestas antes de enviarlas.",
+    "tags": [
+      "remoto",
+      "finalizar"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Opciones similares al modo presencial."
+  },
+  {
+    "id": "APP-015",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Anónima",
+    "title": "Generar archivo XLSX",
+    "description": "Genera un archivo XLSX con códigos y enlaces para que el evaluado acceda al test sin identificarse.",
+    "tags": [
+      "anónima",
+      "xlsx"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Archivo descargado automáticamente."
+  },
+  {
+    "id": "APP-016",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Anónima",
+    "title": "Códigos de acceso anónimos",
+    "description": "El XLSX contiene códigos únicos de usuario y test que el evaluado debe introducir para comenzar.",
+    "tags": [
+      "anónima",
+      "códigos"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Campos claramente visibles en el archivo."
+  },
+  {
+    "id": "APP-017",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Anónima",
+    "title": "Inicio del test con código",
+    "description": "El evaluado introduce su código de usuario y test para acceder a la aplicación anónima.",
+    "tags": [
+      "anónima",
+      "acceso"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Portal con pantalla de bienvenida. https://assessment-pre.giuntipsy.com/"
+  },
+  {
+    "id": "APP-018",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Anónima",
+    "title": "Datos personales mínimos",
+    "description": "Se solicitan ciertos datos durante el inicio incluso en modo anónimo (edad, género, etc.).",
+    "tags": [
+      "anónima",
+      "datos"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Campos obligatorios marcados con *."
+  },
+  {
+    "id": "APP-019",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Anónima",
+    "title": "Finalizar test anónimo",
+    "description": "El evaluado puede finalizar o revisar sus respuestas antes de enviarlas.",
+    "tags": [
+      "anónima",
+      "finalizar"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Comportamiento consistente con otras modalidades."
+  },
+  {
+    "id": "APP-020",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Interfaz",
+    "title": "Controles de zoom en las preguntas",
+    "description": "Pone a disposición del evaluado botones de “+” y “–” para ampliar o reducir el tamaño del contenido del test.",
+    "tags": [
+      "interfaz",
+      "accesibilidad",
+      "zoom"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Control visual para mejorar la lectura."
+  },
+  {
+    "id": "APP-021",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Interfaz",
+    "title": "Botón de zoom",
+    "description": "Permite visualizar las preguntas o contenido del test en formato ampliado mediante un botón de zoom.",
+    "tags": [
+      "interfaz",
+      "accesibilidad"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Funcionalidad asociada al apoyo visual."
+  },
+  {
+    "id": "APP-022",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Interfaz",
+    "title": "Botón de ayuda con modal",
+    "description": "Muestra un modal explicando en qué consiste la prueba o cómo debe contestarse cuando el evaluado pulsa el botón “?”.",
+    "tags": [
+      "interfaz",
+      "ayuda"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Modal informativo contextual."
+  },
+  {
+    "id": "APP-023",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Navegación",
+    "title": "Barra de progreso",
+    "description": "Muestra el avance del evaluado indicando cuántas preguntas ha contestado y cuántas quedan pendientes.",
+    "tags": [
+      "progreso",
+      "navegación"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Indicador visual del estado del test."
+  },
+  {
+    "id": "APP-024",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Navegación",
+    "title": "Navegación entre preguntas",
+    "description": "Permite avanzar o retroceder entre preguntas con botones “Aplicar / Siguiente” y “Volver atrás”.",
+    "tags": [
+      "navegación",
+      "test"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Control de flujo entre ítems."
+  },
+  {
+    "id": "APP-025",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Finalización",
+    "title": "Confirmación de fin de prueba",
+    "description": "Muestra un mensaje de confirmación al llegar a la última pregunta para finalizar la prueba.",
+    "tags": [
+      "finalización",
+      "confirmación"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Mensaje visible antes de terminar."
+  },
+  {
+    "id": "APP-026",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Finalización",
+    "title": "Mensaje de evaluación completada",
+    "description": "Al finalizar la última pregunta, la plataforma muestra el mensaje “Ya ha completado esta evaluación”.",
+    "tags": [
+      "finalización",
+      "mensaje"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Mensaje final estándar del flujo de prueba."
+  },
+  {
+    "id": "APP-027",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Navegación",
+    "title": "Validación de respuesta requerida",
+    "description": "El sistema requiere seleccionar una respuesta antes de permitir avanzar a la siguiente pregunta.",
+    "tags": [
+      "validación",
+      "navegación"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Control obligatorio por ítem."
+  },
+  {
+    "id": "APP-028",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Navegación",
+    "title": "Botón Aplicar",
+    "description": "Permite registrar la respuesta de la pregunta actual antes de pasar a la siguiente.",
+    "tags": [
+      "navegación",
+      "registrar"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Acción necesaria en cada pregunta."
+  },
+  {
+    "id": "APP-029",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Navegación",
+    "title": "Detección de última pregunta",
+    "description": "El sistema identifica automáticamente la última pregunta y modifica la acción final a “Finalizar la prueba”.",
+    "tags": [
+      "navegación",
+      "lógica"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Acción diferenciada en el último ítem."
+  },
+  {
+    "id": "APP-030",
+    "category": "Aplicación de Pruebas",
+    "subcategory": "Interfaz",
+    "title": "Persistencia temporal de respuestas",
+    "description": "Las respuestas permanecen registradas en la sesión mientras se navega hacia atrás y adelante entre preguntas.",
+    "tags": [
+      "test",
+      "persistencia"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Permite revisión antes de finalizar."
   }
 ]
