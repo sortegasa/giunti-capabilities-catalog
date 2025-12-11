@@ -20,7 +20,7 @@
     "id": "ACC-002",
     "category": "Acceso y cuentas",
     "subcategory": "Registro",
-    "title": "Confirmación por email",
+    "title": "Registro",
     "description": "Tras el registro, se envía un correo para validar la cuenta mediante enlace de verificación.",
     "tags": [
       "registro",
@@ -871,5 +871,826 @@
     },
     "status": "pending",
     "notes": "Batch selection por página."
+  },
+  {
+    "id": "USR-028",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Ficha de usuario",
+    "title": "Ver ficha detallada de usuario",
+    "description": "Permite acceder a la ficha completa de una persona con sus datos principales, secundarios, grupos asignados y proyectos asociados.",
+    "tags": [
+      "usuario",
+      "ficha"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Acceso al hacer clic sobre el usuario en el listado."
+  },
+  {
+    "id": "USR-029",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Ficha de usuario",
+    "title": "Modificar datos del usuario",
+    "description": "Permite editar los datos personales, secundarios y de contacto de un usuario ya creado.",
+    "tags": [
+      "usuario",
+      "edición"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Botón “Modificar datos” visible en la ficha."
+  },
+  {
+    "id": "USR-030",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Ficha de usuario",
+    "title": "Eliminar usuario",
+    "description": "Permite eliminar un usuario del sistema desde su ficha individual.",
+    "tags": [
+      "usuario",
+      "eliminación"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Botón “Eliminar” en la ficha del usuario."
+  },
+  {
+    "id": "USR-031",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Ficha de usuario",
+    "title": "Asignar test desde ficha",
+    "description": "Permite asignar uno o varios tests directamente desde la ficha del usuario.",
+    "tags": [
+      "usuario",
+      "tests",
+      "asignación"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Botón “Asignar test” visible en la ficha."
+  },
+  {
+    "id": "USR-032",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Ficha de usuario",
+    "title": "Visualizar grupos asignados",
+    "description": "Muestra los grupos a los que pertenece el usuario dentro de su ficha.",
+    "tags": [
+      "usuario",
+      "grupos"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Listado de grupos asignados."
+  },
+  {
+    "id": "USR-033",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Ficha de usuario",
+    "title": "Visualizar tests asignados",
+    "description": "Muestra una lista de los tests y proyectos asignados al usuario en su ficha.",
+    "tags": [
+      "usuario",
+      "tests"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Listado de tests asignados."
+  },
+  {
+    "id": "USR-034",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Ficha de usuario",
+    "title": "Acceso directo al test desde ficha",
+    "description": "Permite hacer clic sobre un test asignado para acceder directamente al proyecto o formulario correspondiente.",
+    "tags": [
+      "usuario",
+      "tests",
+      "acceso directo"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Acceso al proyecto desde la ficha."
+  },
+  {
+    "id": "ASS-001",
+    "category": "Asignación de Tests",
+    "subcategory": "Listado",
+    "title": "Visualizar listado de proyectos",
+    "description": "La plataforma muestra en una tabla todos los proyectos existentes, tanto individuales como de grupos.",
+    "tags": [
+      "listado",
+      "proyectos"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "La tabla aparece vacía cuando no hay datos."
+  },
+  {
+    "id": "ASS-002",
+    "category": "Asignación de Tests",
+    "subcategory": "Filtros",
+    "title": "Búsqueda general de proyectos",
+    "description": "Campo de búsqueda para filtrar los proyectos por palabras clave.",
+    "tags": [
+      "búsqueda",
+      "proyectos"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Busqueda activa en ambas pestañas."
+  },
+  {
+    "id": "ASS-003",
+    "category": "Asignación de Tests",
+    "subcategory": "Filtros",
+    "title": "Filtro por tipo de proyecto",
+    "description": "Selector que permite filtrar proyectos según su tipo: Proyecto o Persona.",
+    "tags": [
+      "filtros",
+      "tipo"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Selector en barra superior."
+  },
+  {
+    "id": "ASS-004",
+    "category": "Asignación de Tests",
+    "subcategory": "Filtros",
+    "title": "Filtro por modalidad de aplicación",
+    "description": "Selector multiopción que permite filtrar proyectos por tipo de aplicación: Manual, Presencial, En remoto o Anónima.",
+    "tags": [
+      "filtros",
+      "aplicación"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Permite combinaciones múltiples."
+  },
+  {
+    "id": "ASS-005",
+    "category": "Asignación de Tests",
+    "subcategory": "Filtros",
+    "title": "Filtro por estado del proyecto",
+    "description": "Selector multiopción para filtrar por estado: Creado, Asignado, En progreso o Realizado.",
+    "tags": [
+      "filtros",
+      "estado"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Filtrado avanzado."
+  },
+  {
+    "id": "ASS-006",
+    "category": "Asignación de Tests",
+    "subcategory": "Filtros",
+    "title": "Filtro por rango de fechas",
+    "description": "Selector de fechas con calendario para filtrar proyectos por intervalo temporal.",
+    "tags": [
+      "fechas",
+      "filtros"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Selector de rango completo."
+  },
+  {
+    "id": "ASS-007",
+    "category": "Asignación de Tests",
+    "subcategory": "Listado",
+    "title": "Pestañas Individuales y Grupos",
+    "description": "La vista de proyecto permite cambiar entre proyectos individuales y de grupos.",
+    "tags": [
+      "proyectos",
+      "listado"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Pestañas superiores."
+  },
+  {
+    "id": "ASS-008",
+    "category": "Asignación de Tests",
+    "subcategory": "Listado",
+    "title": "Estado vacío del listado",
+    "description": "Muestra un mensaje cuando no existen proyectos o la búsqueda no da resultados.",
+    "tags": [
+      "estado vacío",
+      "listado"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Comportamiento visible en ambas pestañas."
+  },
+  {
+    "id": "ASS-009",
+    "category": "Asignación de Tests",
+    "subcategory": "Creación",
+    "title": "Crear proyecto",
+    "description": "Botón flotante que inicia el proceso de creación de un nuevo proyecto.",
+    "tags": [
+      "creación",
+      "proyecto"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Botón en esquina inferior derecha."
+  },
+  {
+    "id": "ASS-010",
+    "category": "Asignación de Tests",
+    "subcategory": "Creación",
+    "title": "Código de proyecto autogenerado",
+    "description": "El sistema asigna automáticamente un identificador único a cada proyecto.",
+    "tags": [
+      "código",
+      "proyecto"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Visible al inicio de la creación."
+  },
+  {
+    "id": "ASS-011",
+    "category": "Asignación de Tests",
+    "subcategory": "Creación",
+    "title": "Seleccionar tipo de aplicación del proyecto",
+    "description": "Permite definir el tipo de aplicación del proyecto: Manual, Presencial, En remoto o Anónima.",
+    "tags": [
+      "aplicación",
+      "proyecto"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Selector persistente durante la creación."
+  },
+  {
+    "id": "ASS-012",
+    "category": "Asignación de Tests",
+    "subcategory": "Destinatarios",
+    "title": "Añadir persona o grupo",
+    "description": "Permite seleccionar usuarios o grupos como destinatarios del proyecto.",
+    "tags": [
+      "usuarios",
+      "grupos"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Botón “Añadir persona o grupo”."
+  },
+  {
+    "id": "ASS-013",
+    "category": "Asignación de Tests",
+    "subcategory": "Destinatarios",
+    "title": "Modal de selección con buscador",
+    "description": "La selección de destinatarios se realiza desde una modal con buscador integrado.",
+    "tags": [
+      "modal",
+      "usuarios"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Buscador en la parte superior de la modal."
+  },
+  {
+    "id": "ASS-014",
+    "category": "Asignación de Tests",
+    "subcategory": "Destinatarios",
+    "title": "Paginación en la selección",
+    "description": "La modal incluye paginación para navegar entre resultados de usuarios o grupos.",
+    "tags": [
+      "modal",
+      "paginación"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Paginación visible en la parte inferior."
+  },
+  {
+    "id": "ASS-015",
+    "category": "Asignación de Tests",
+    "subcategory": "Destinatarios",
+    "title": "Seleccionar todos los resultados visibles",
+    "description": "La modal permite seleccionar todos los usuarios o grupos de la página mediante un switch.",
+    "tags": [
+      "selección múltiple"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Opción “Seleccionar toda la página”."
+  },
+  {
+    "id": "ASS-016",
+    "category": "Asignación de Tests",
+    "subcategory": "Destinatarios",
+    "title": "Asignar destinatarios al proyecto",
+    "description": "Los usuarios o grupos seleccionados se añaden a la vista principal del proyecto como destinatarios.",
+    "tags": [
+      "asignación",
+      "usuarios"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Los destinatarios aparecen listados a la izquierda."
+  },
+  {
+    "id": "ASS-017",
+    "category": "Asignación de Tests",
+    "subcategory": "Tests",
+    "title": "Añadir test al proyecto",
+    "description": "Permite añadir uno o varios tests al proyecto mediante un selector con buscador.",
+    "tags": [
+      "tests",
+      "asignación"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Desplegable con buscador y scroll."
+  },
+  {
+    "id": "ASS-018",
+    "category": "Asignación de Tests",
+    "subcategory": "Tests",
+    "title": "Selector de tipo de suministración",
+    "description": "Permite elegir la forma de aplicación para cada test: Manual, Presencial, En remoto o Anónima.",
+    "tags": [
+      "aplicación",
+      "test"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Selector disponible al añadir el test."
+  },
+  {
+    "id": "ASS-019",
+    "category": "Asignación de Tests",
+    "subcategory": "Tests",
+    "title": "Selección del tipo de informe",
+    "description": "Permite elegir el tipo de informe asociado al test (interpretativo u otros formatos disponibles).",
+    "tags": [
+      "informes",
+      "test"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "El tipo de informe se muestra junto al test seleccionado."
+  },
+  {
+    "id": "ASS-020",
+    "category": "Asignación de Tests",
+    "subcategory": "Tests",
+    "title": "Coste en créditos del test",
+    "description": "Muestra el coste en créditos del informe del test antes de asignarlo.",
+    "tags": [
+      "créditos",
+      "test"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Ejemplo: Informe interpretativo – 100 créditos."
+  },
+  {
+    "id": "ASS-021",
+    "category": "Asignación de Tests",
+    "subcategory": "Tests",
+    "title": "Asignación del test al proyecto",
+    "description": "Botón que confirma la asignación del test seleccionado al proyecto.",
+    "tags": [
+      "asignación",
+      "test"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Botón “Asignar” en la interfaz."
+  },
+  {
+    "id": "ASS-022",
+    "category": "Asignación de Tests",
+    "subcategory": "Flujo",
+    "title": "Insertar respuestas (modo manual)",
+    "description": "Permite introducir manualmente las respuestas a los ítems del test asignado.",
+    "tags": [
+      "respuestas",
+      "manual"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Acceso mediante botón “Insertar respuestas”."
+  },
+  {
+    "id": "ASS-023",
+    "category": "Asignación de Tests",
+    "subcategory": "Flujo",
+    "title": "Formulario de datos del evaluado",
+    "description": "Formulario previo a la introducción de respuestas con datos personales, profesionales y contextuales del evaluado.",
+    "tags": [
+      "formulario",
+      "evaluado"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Incluye sexo, estudios, sector, años de experiencia, etc."
+  },
+  {
+    "id": "ASS-024",
+    "category": "Asignación de Tests",
+    "subcategory": "Flujo",
+    "title": "Introducción de respuestas",
+    "description": "Permite introducir respuestas numeradas (por ejemplo, del 1 al 88) con validaciones específicas (mínimo/máximo).",
+    "tags": [
+      "respuestas",
+      "test"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Controles individuales por ítem."
+  },
+  {
+    "id": "ASS-025",
+    "category": "Asignación de Tests",
+    "subcategory": "Flujo",
+    "title": "Guardar borrador del test",
+    "description": "Permite guardar los datos y respuestas sin finalizar la puntuación.",
+    "tags": [
+      "guardar",
+      "test"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Botón “Guardar” disponible en el formulario."
+  },
+  {
+    "id": "ASS-026",
+    "category": "Asignación de Tests",
+    "subcategory": "Flujo",
+    "title": "Puntuación del test",
+    "description": "Calcula resultados y procesa la puntuación una vez introducidas las respuestas.",
+    "tags": [
+      "puntuación",
+      "test"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Botón “Puntuación” que dispara el cálculo."
+  },
+  {
+    "id": "ASS-027",
+    "category": "Asignación de Tests",
+    "subcategory": "Tipo de proyecto",
+    "title": "Creación automática de proyecto individual",
+    "description": "Al asignar un test a una única persona, el sistema crea automáticamente un proyecto individual.",
+    "tags": [
+      "proyectos",
+      "individual"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "El proyecto se clasifica inicialmente como individual."
+  },
+  {
+    "id": "ASS-028",
+    "category": "Asignación de Tests",
+    "subcategory": "Tipo de proyecto",
+    "title": "Conversión automática de individual a grupo",
+    "description": "Si se añaden más personas a un proyecto individual, el sistema lo convierte automáticamente en un proyecto de grupo.",
+    "tags": [
+      "proyectos",
+      "grupo",
+      "conversión"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "La conversión ocurre al añadir múltiples destinatarios."
+  },
+  {
+    "id": "ASS-029",
+    "category": "Asignación de Tests",
+    "subcategory": "Tipo de proyecto",
+    "title": "Gestión unificada de destinatarios",
+    "description": "La plataforma permite gestionar personas y grupos como destinatarios dentro del mismo proyecto, sin crear entidades separadas.",
+    "tags": [
+      "destinatarios",
+      "proyectos"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Un proyecto puede tener 1 o múltiples destinatarios."
+  },
+  {
+    "id": "ASS-030",
+    "category": "Asignación de Tests",
+    "subcategory": "Tipo de proyecto",
+    "title": "Reclasificación dinámica del tipo de proyecto",
+    "description": "El tipo del proyecto (individual o grupo) no es fijo: cambia automáticamente según el número de destinatarios asignados.",
+    "tags": [
+      "proyectos",
+      "dinámica"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Regla lógica basada en número de personas asignadas."
+  },
+  {
+    "id": "ASS-031",
+    "category": "Asignación de Tests",
+    "subcategory": "Tipo de proyecto",
+    "title": "Proyectos de grupo creados por múltiples destinatarios",
+    "description": "Al seleccionar más de una persona en la asignación, la plataforma crea directamente un proyecto de grupo.",
+    "tags": [
+      "proyectos",
+      "grupo"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "pending",
+    "notes": "Proyecto creado como grupo desde el inicio."
+  },
+  {
+    "id": "ASS-032",
+    "category": "Asignación de Tests",
+    "subcategory": "Gestión del proyecto",
+    "title": "Borrar proyecto desde la tabla",
+    "description": "Permite eliminar un proyecto directamente desde la tabla de proyectos utilizando el menú de tres puntos.",
+    "tags": [
+      "proyecto",
+      "eliminar"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Opción “Borrar” accesible desde el menú contextual."
+  },
+  {
+    "id": "ASS-033",
+    "category": "Asignación de Tests",
+    "subcategory": "Gestión del proyecto",
+    "title": "Reenviar e-mails desde la tabla",
+    "description": "Permite reenviar e-mails asociados al proyecto desde el menú de tres puntos en la tabla de proyectos.",
+    "tags": [
+      "proyecto",
+      "emails"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Opción “Reenviar e-mails” disponible en menú contextual."
+  },
+  {
+    "id": "ASS-034",
+    "category": "Asignación de Tests",
+    "subcategory": "Gestión del proyecto",
+    "title": "Descargar datos administrativos (tabla)",
+    "description": "Permite descargar un archivo XLSX con datos administrativos del proyecto desde el menú de tres puntos en la tabla.",
+    "tags": [
+      "proyecto",
+      "administración",
+      "xlsx"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Opción “Datos de administración” accesible desde menú contextual."
+  },
+  {
+    "id": "ASS-035",
+    "category": "Asignación de Tests",
+    "subcategory": "Gestión del proyecto",
+    "title": "Eliminar proyecto desde vista interna",
+    "description": "Permite eliminar un proyecto desde su pantalla de detalle utilizando el botón dedicado.",
+    "tags": [
+      "proyecto",
+      "eliminar"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Botón “Eliminar” visible dentro del proyecto."
+  },
+  {
+    "id": "ASS-036",
+    "category": "Asignación de Tests",
+    "subcategory": "Gestión del proyecto",
+    "title": "Cerrar proyecto",
+    "description": "Permite cerrar un proyecto desde la vista interna, bloqueando nuevas modificaciones o envíos.",
+    "tags": [
+      "proyecto",
+      "cierre"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Botón “Cerrar proyecto” visible en la vista interna."
+  },
+  {
+    "id": "ASS-037",
+    "category": "Asignación de Tests",
+    "subcategory": "Gestión del proyecto",
+    "title": "Añadir personas desde vista interna",
+    "description": "Permite añadir nuevas personas al proyecto desde su pantalla de detalle mediante el botón correspondiente.",
+    "tags": [
+      "proyecto",
+      "destinatarios"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Botón “Añadir personas” disponible dentro del proyecto."
+  },
+  {
+    "id": "ASS-038",
+    "category": "Asignación de Tests",
+    "subcategory": "Gestión del proyecto",
+    "title": "Enviar e-mails desde vista interna",
+    "description": "Permite enviar e-mails directamente desde la pantalla interna del proyecto mediante un botón dedicado.",
+    "tags": [
+      "proyecto",
+      "emails"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Botón “Enviar e-mails” dentro del proyecto."
+  },
+  {
+    "id": "ASS-039",
+    "category": "Asignación de Tests",
+    "subcategory": "Gestión del proyecto",
+    "title": "Reanudar proyecto",
+    "description": "Permite reactivar un proyecto para completar o reenviar información, mostrando nuevamente destinatarios, tests y botones de Guardar y Enviar.",
+    "tags": [
+      "proyecto",
+      "reanudar"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Botón “Reanudar” restaura pantalla operativa del proyecto."
+  },
+  {
+    "id": "ASS-040",
+    "category": "Asignación de Tests",
+    "subcategory": "Gestión del proyecto",
+    "title": "Descargar datos administrativos (vista interna)",
+    "description": "Permite descargar un archivo XLSX con datos administrativos del proyecto desde su pantalla de detalle.",
+    "tags": [
+      "proyecto",
+      "administración",
+      "xlsx"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Botón “Datos de administración” dentro del proyecto."
+  },
+  {
+    "id": "ASS-041",
+    "category": "Asignación de Tests",
+    "subcategory": "Gestión del proyecto",
+    "title": "Contenido del archivo administrativo XLSX",
+    "description": "El archivo XLSX descargado contiene el enlace del proyecto y el código de usuario asociado.",
+    "tags": [
+      "proyecto",
+      "administración",
+      "datos"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "unknown"
+    },
+    "status": "confirmed",
+    "notes": "Contenido reducido a URL del proyecto y código de usuario."
   }
 ]
