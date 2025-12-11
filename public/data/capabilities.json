@@ -11,7 +11,7 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
     "status": "confirmed",
     "notes": "Flujo estándar de registro."
@@ -28,7 +28,7 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "yes"
     },
     "status": "confirmed",
     "notes": "Comportamiento habitual."
@@ -45,7 +45,7 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "yes"
     },
     "status": "confirmed",
     "notes": "Flujo específico de GT."
@@ -62,7 +62,7 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "yes"
     },
     "status": "confirmed",
     "notes": "GT fuerza cambio en el primer login."
@@ -79,7 +79,7 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "yes"
     },
     "status": "confirmed",
     "notes": "—"
@@ -96,7 +96,7 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
     "status": "confirmed",
     "notes": "—"
@@ -113,7 +113,7 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
     "status": "confirmed",
     "notes": "—"
@@ -130,7 +130,7 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "yes"
     },
     "status": "confirmed",
     "notes": "—"
@@ -147,7 +147,7 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "yes"
     },
     "status": "confirmed",
     "notes": "—"
@@ -164,7 +164,7 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "yes"
     },
     "status": "confirmed",
     "notes": "—"
@@ -181,7 +181,7 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
     "status": "confirmed",
     "notes": null
@@ -198,7 +198,7 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
     "status": "confirmed",
     "notes": "GT funciona con consumos/“usos”."
@@ -215,10 +215,10 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "yes"
     },
     "status": "confirmed",
-    "notes": "—"
+    "notes": "En VOL es una opción en la sidebar, junto al resto de items de menú"
   },
   {
     "id": "ACC-014",
@@ -249,11 +249,11 @@
       "login"
     ],
     "platforms": {
-      "GT": "unknown",
-      "VOL": "unknown"
+      "GT": "yes",
+      "VOL": "yes"
     },
-    "status": "unknown",
-    "notes": null
+    "status": "confirmed",
+    "notes": "En Testing formato se valida y se deshabilitan botones. En VOL se muestran como modales que hay que cerrar con un botón de OK pero no hay validaciones de formato"
   },
   {
     "id": "ACC-016",
@@ -267,10 +267,10 @@
       "login"
     ],
     "platforms": {
-      "GT": "unknown",
-      "VOL": "unknown"
+      "GT": "yes",
+      "VOL": "no"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": null
   },
   {
@@ -285,10 +285,10 @@
       "protección"
     ],
     "platforms": {
-      "GT": "unknown",
-      "VOL": "unknown"
+      "GT": "no",
+      "VOL": "yes"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Importante para evitar enumeración de usuarios."
   },
   {
@@ -303,10 +303,10 @@
       "validación"
     ],
     "platforms": {
-      "GT": "unknown",
-      "VOL": "unknown"
+      "GT": "yes",
+      "VOL": "no"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Verificar si valida email antes de enviar."
   },
   {
@@ -321,11 +321,11 @@
       "login"
     ],
     "platforms": {
-      "GT": "unknown",
-      "VOL": "unknown"
+      "GT": "yes",
+      "VOL": "yes"
     },
-    "status": "pending",
-    "notes": null
+    "status": "confirmed",
+    "notes": "El recaptcha en ambos es muy restrictivo y solicita inicialmente hasta 4 validaciones de cuadrantes"
   },
   {
     "id": "ACC-020",
@@ -342,7 +342,7 @@
       "VOL": "unknown"
     },
     "status": "pending",
-    "notes": "Revisar si el sistema bloquea tras varios intentos."
+    "notes": "No comprobado"
   },
   {
     "id": "ACC-021",
@@ -390,11 +390,11 @@
       "login"
     ],
     "platforms": {
-      "GT": "unknown",
-      "VOL": "unknown"
+      "GT": "yes",
+      "VOL": "no"
     },
-    "status": "pending",
-    "notes": "Revisar si existe límite o no."
+    "status": "confirmed",
+    "notes": "Testing solo informa del error con notificación y permite intentos ilimitados. VOL ofrece recaptcha que bloquea los intentos continuos."
   },
   {
     "id": "ACC-024",
@@ -407,11 +407,11 @@
       "bot-protection"
     ],
     "platforms": {
-      "GT": "unknown",
-      "VOL": "unknown"
+      "GT": "no",
+      "VOL": "yes"
     },
-    "status": "pending",
-    "notes": null
+    "status": "confirmed",
+    "notes": "Testing lo ofrece en la recuperación de contraseña."
   },
   {
     "id": "USR-001",
@@ -425,9 +425,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "yes"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Estado vacío visible antes de crear usuarios."
   },
   {
@@ -442,9 +442,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "yes"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Buscar por nombre, apellidos o código."
   },
   {
@@ -459,9 +459,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Paginación automática en tablas."
   },
   {
@@ -476,9 +476,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "yes"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Estado inicial antes de crear registros."
   },
   {
@@ -493,9 +493,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "yes"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Acceso desde botón “Crear un usuario”."
   },
   {
@@ -510,10 +510,10 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
-    "status": "pending",
-    "notes": "Campo obligatorio."
+    "status": "confirmed",
+    "notes": "En VOL se completa el Cadastro de Pessoas Físicas (CPF)"
   },
   {
     "id": "USR-007",
@@ -527,9 +527,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Validación crítica del identificador."
   },
   {
@@ -537,17 +537,17 @@
     "category": "Gestión de Usuarios",
     "subcategory": "Creación",
     "title": "Campos principales del usuario",
-    "description": "El formulario incluye nombre, apellidos, email, fecha de nacimiento y género como datos principales.",
+    "description": "El formulario incluye nombre, apellidos, email y género como datos principales.",
     "tags": [
       "usuarios",
       "formulario"
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "yes"
     },
-    "status": "pending",
-    "notes": "Campos principales de perfil."
+    "status": "confirmed",
+    "notes": "Testing añade la fecha de nacimiento y VOL el cadastro"
   },
   {
     "id": "USR-009",
@@ -561,9 +561,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Selector obligatorio. Necesita ser ampliado"
   },
   {
@@ -571,17 +571,17 @@
     "category": "Gestión de Usuarios",
     "subcategory": "Formulario",
     "title": "Campos secundarios opcionales",
-    "description": "Incluye país, nacionalidad, ciudad, dirección, teléfono, ocupación, educación y notas como campos opcionales.",
+    "description": "Incluye país, nacionalidad, ciudad, dirección, teléfono, ocupación, educación como campos opcionales.",
     "tags": [
       "usuarios",
       "formulario"
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "yes"
     },
-    "status": "pending",
-    "notes": "Campos complementarios."
+    "status": "confirmed",
+    "notes": "En VOL no hay educación"
   },
   {
     "id": "USR-011",
@@ -595,10 +595,10 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
-    "status": "pending",
-    "notes": "Selector con búsqueda integrada."
+    "status": "confirmed",
+    "notes": "En VOL la orientación es a profesionales, bien sean psicologos o no"
   },
   {
     "id": "USR-012",
@@ -612,9 +612,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Selector de tipo autocomplete."
   },
   {
@@ -622,16 +622,16 @@
     "category": "Gestión de Usuarios",
     "subcategory": "Formulario",
     "title": "Notas de usuario",
-    "description": "Campo textarea para introducir información adicional del usuario.",
+    "description": "Campo textarea de notas para introducir información adicional del usuario.",
     "tags": [
       "usuario",
       "notas"
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Campo libre."
   },
   {
@@ -646,9 +646,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Importación masiva."
   },
   {
@@ -663,9 +663,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Soporta varios formatos."
   },
   {
@@ -680,9 +680,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Plantilla de datos."
   },
   {
@@ -697,9 +697,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Desde sección dedicada en el formulario."
   },
   {
@@ -714,9 +714,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Buscador interno."
   },
   {
@@ -731,9 +731,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Paginación incluida."
   },
   {
@@ -748,9 +748,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Selección por batch de página."
   },
   {
@@ -765,9 +765,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Estado inicial sin grupos."
   },
   {
@@ -782,9 +782,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Botón “Crear grupo”. No se puede crear grupo si no añades al menos un usuario"
   },
   {
@@ -799,9 +799,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Validación crítica."
   },
   {
@@ -816,9 +816,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Campo libre."
   },
   {
@@ -833,9 +833,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Importación masiva dentro del grupo."
   },
   {
@@ -850,9 +850,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Selección múltiple desde modal."
   },
   {
@@ -867,9 +867,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Batch selection por página."
   },
   {
@@ -884,9 +884,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "yes"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Acceso al hacer clic sobre el usuario en el listado."
   },
   {
@@ -901,9 +901,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "yes"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Botón “Modificar datos” visible en la ficha."
   },
   {
@@ -918,9 +918,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Botón “Eliminar” en la ficha del usuario."
   },
   {
@@ -936,9 +936,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "yes"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Botón “Asignar test” visible en la ficha."
   },
   {
@@ -953,9 +953,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "no"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Listado de grupos asignados."
   },
   {
@@ -970,9 +970,9 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "yes"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Listado de tests asignados."
   },
   {
@@ -980,7 +980,7 @@
     "category": "Gestión de Usuarios",
     "subcategory": "Ficha de usuario",
     "title": "Acceso directo al test desde ficha",
-    "description": "Permite hacer clic sobre un test asignado para acceder directamente al proyecto o formulario correspondiente.",
+    "description": "Permite hacer clic sobre un test asignado para acceder directamente al proyecto o resultados correspondientes.",
     "tags": [
       "usuario",
       "tests",
@@ -988,10 +988,79 @@
     ],
     "platforms": {
       "GT": "yes",
-      "VOL": "unknown"
+      "VOL": "yes"
     },
-    "status": "pending",
+    "status": "confirmed",
     "notes": "Acceso al proyecto desde la ficha."
+  },
+  {
+    "id": "USR-035",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Estado",
+    "title": "Activar o desactivar usuario",
+    "description": "Permite marcar un usuario como activo o inactivo, afectando su acceso a la plataforma.",
+    "tags": [
+      "usuario",
+      "estado"
+    ],
+    "platforms": {
+      "GT": "no",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": "Funcionalidad exclusiva de VOL."
+  },
+  {
+    "id": "USR-036",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Listado",
+    "title": "Mostrar usuarios inactivos",
+    "description": "Permite incluir o excluir usuarios inactivos en el listado principal.",
+    "tags": [
+      "usuarios",
+      "filtros"
+    ],
+    "platforms": {
+      "GT": "no",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": null
+  },
+  {
+    "id": "USR-037",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Profesional",
+    "title": "Campos profesionales específicos",
+    "description": "El sistema incluye campos profesionales específicos como CRP, región y rol profesional.",
+    "tags": [
+      "usuarios",
+      "profesional"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": "Algunos como el CRP son propios del contexto regulatorio brasileño."
+  },
+  {
+    "id": "USR-038",
+    "category": "Gestión de Usuarios",
+    "subcategory": "Integración",
+    "title": "API Endpoint por usuario",
+    "description": "Permite configurar un endpoint asociado al usuario para integraciones personalizadas.",
+    "tags": [
+      "api",
+      "integración",
+      "usuario"
+    ],
+    "platforms": {
+      "GT": "no",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": "Función avanzada no presente en Giunti Testing."
   },
   {
     "id": "ASS-001",
