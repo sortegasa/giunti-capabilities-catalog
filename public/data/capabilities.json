@@ -1590,7 +1590,7 @@
       "VOL": "no"
     },
     "status": "confirmed",
-    "notes": "Opción “Reenviar e-mails” disponible en menú contextual."
+    "notes": "Opción “Reenviar e-mails” disponible en menú contextual tanto a grupo como a personas individuales"
   },
   {
     "id": "ASS-030",
@@ -1676,7 +1676,7 @@
       "VOL": "yes"
     },
     "status": "confirmed",
-    "notes": null
+    "notes": "En Testing puedes escribir el contenido del correo"
   },
   {
     "id": "ASS-035",
