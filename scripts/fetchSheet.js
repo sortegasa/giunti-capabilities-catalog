@@ -11,7 +11,6 @@ const API_KEY = process.env.GOOGLE_API_KEY;
  * Normaliza valores de plataforma:
  * SI → "yes"
  * NO → "no"
- * N/A → "na"
  * ? → "unknown"
  */
 function normalizePlatformValue(value) {
@@ -21,7 +20,6 @@ function normalizePlatformValue(value) {
 
   if (val === "SI") return "yes";
   if (val === "NO") return "no";
-  if (val === "N/A" || val === "NA") return "na";
   if (val === "?" || val === "NS") return "unknown";
 
   return "unknown"; // fallback
