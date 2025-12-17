@@ -2278,5 +2278,857 @@
     },
     "status": "confirmed",
     "notes": "Funcionalidad presente en VOL; Giunti Testing no muestra confirmación explícita."
+  },
+  {
+    "id": "CAT-001",
+    "category": "Catálogo",
+    "subcategory": "Acceso",
+    "title": "Acceso al catálogo de tests",
+    "description": "Permite acceder a un catálogo centralizado de tests disponibles desde el menú principal.",
+    "tags": [
+      "catálogo",
+      "tests"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Giunti Testing dispone de catálogo; VOL no tiene catálogo exploratorio."
+  },
+  {
+    "id": "CAT-002",
+    "category": "Catálogo",
+    "subcategory": "Visualización",
+    "title": "Visualización en cards",
+    "description": "Muestra los tests disponibles en formato de tarjetas visuales (cards).",
+    "tags": [
+      "catálogo",
+      "visualización"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Modelo visual orientado a exploración."
+  },
+  {
+    "id": "CAT-003",
+    "category": "Catálogo",
+    "subcategory": "Búsqueda",
+    "title": "Búsqueda de tests",
+    "description": "Campo de búsqueda por texto para localizar tests dentro del catálogo.",
+    "tags": [
+      "catálogo",
+      "búsqueda"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "VOL no ofrece búsqueda exploratoria de instrumentos."
+  },
+  {
+    "id": "CAT-004",
+    "category": "Catálogo",
+    "subcategory": "Filtros",
+    "title": "Filtro por país",
+    "description": "Permite filtrar los tests por país mediante un selector con buscador y selección múltiple.",
+    "tags": [
+      "catálogo",
+      "país",
+      "filtros"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Filtro avanzado con multiselección."
+  },
+  {
+    "id": "CAT-005",
+    "category": "Catálogo",
+    "subcategory": "Filtros",
+    "title": "Filtro por ámbito",
+    "description": "Permite filtrar los tests por ámbito de aplicación (conducta, aprendizaje, RRHH, etc.).",
+    "tags": [
+      "catálogo",
+      "ámbito",
+      "filtros"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Clasificación funcional de los instrumentos."
+  },
+  {
+    "id": "CAT-006",
+    "category": "Catálogo",
+    "subcategory": "Filtros",
+    "title": "Filtro por permiso de uso",
+    "description": "Permite filtrar entre tests disponibles para el usuario o el conjunto total de tests.",
+    "tags": [
+      "catálogo",
+      "permisos"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "VOL solo muestra licencias asignadas."
+  },
+  {
+    "id": "CAT-007",
+    "category": "Catálogo",
+    "subcategory": "Filtros",
+    "title": "Limpiar filtros",
+    "description": "Permite resetear todos los filtros aplicados en el catálogo de tests.",
+    "tags": [
+      "catálogo",
+      "filtros"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Acción visible en la interfaz."
+  },
+  {
+    "id": "CAT-008",
+    "category": "Catálogo",
+    "subcategory": "Ordenación",
+    "title": "Ordenar catálogo por nombre",
+    "description": "Permite ordenar los tests del catálogo alfabéticamente (A–Z / Z–A).",
+    "tags": [
+      "catálogo",
+      "ordenación"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Opción de ordenación por nombre."
+  },
+  {
+    "id": "CAT-009",
+    "category": "Catálogo",
+    "subcategory": "Detalle",
+    "title": "Detalle del test",
+    "description": "Permite visualizar un modal con información detallada del test desde el catálogo.",
+    "tags": [
+      "catálogo",
+      "detalle"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Modal informativo del instrumento."
+  },
+  {
+    "id": "CAT-010",
+    "category": "Catálogo",
+    "subcategory": "Detalle",
+    "title": "Información funcional del test",
+    "description": "Muestra descripción, número de preguntas, modalidades disponibles, duración y tipo de informe del test.",
+    "tags": [
+      "catálogo",
+      "información"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Información completa antes de asignar."
+  },
+  {
+    "id": "CAT-011",
+    "category": "Catálogo",
+    "subcategory": "Acción",
+    "title": "Asignar test desde catálogo",
+    "description": "Permite asignar directamente un test desde el catálogo, creando un nuevo proyecto.",
+    "tags": [
+      "catálogo",
+      "asignación"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Acción directa sin pasar por proyectos."
+  },
+  {
+    "id": "CAT-012",
+    "category": "Catálogo",
+    "subcategory": "Licencias",
+    "title": "Gestión administrativa de licencias",
+    "description": "Muestra información administrativa de licencias disponibles, alocadas y utilizadas por instrumento.",
+    "tags": [
+      "licencias",
+      "administración"
+    ],
+    "platforms": {
+      "GT": "no",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "VOL gestiona instrumentos como licencias, no como catálogo exploratorio."
+  },
+  {
+    "id": "CAT-013",
+    "category": "Catálogo",
+    "subcategory": "Licencias",
+    "title": "Histórico de aplicaciones y correcciones",
+    "description": "Permite consultar el histórico de uso de licencias filtrando por aplicación o corrección.",
+    "tags": [
+      "licencias",
+      "histórico"
+    ],
+    "platforms": {
+      "GT": "no",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Funcionalidad administrativa específica de VOL."
+  },
+  {
+    "id": "CAT-014",
+    "category": "Catálogo",
+    "subcategory": "Documentación",
+    "title": "Guías y modelos en PDF",
+    "description": "Ofrece documentación técnica y guías de aplicación de instrumentos en formato PDF.",
+    "tags": [
+      "documentación",
+      "guías"
+    ],
+    "platforms": {
+      "GT": "no",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": "VOL incluye guías, no catálogo funcional."
+  },
+  {
+    "id": "HELP-001",
+    "category": "Ayuda y Soporte",
+    "subcategory": "Acceso",
+    "title": "Centro de ayuda integrado",
+    "description": "Dispone de una sección de ayuda integrada dentro de la plataforma con contenidos estructurados por temas.",
+    "tags": [
+      "ayuda",
+      "soporte"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Giunti Testing ofrece centro de ayuda; VOL no tiene centro integrado de este tipo."
+  },
+  {
+    "id": "HELP-002",
+    "category": "Ayuda y Soporte",
+    "subcategory": "Contenido",
+    "title": "Ayuda organizada por secciones",
+    "description": "La ayuda está organizada por áreas funcionales (acceso, panel de control, personas, proyectos, catálogo, perfil, etc.).",
+    "tags": [
+      "documentación",
+      "ayuda"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Estructura alineada con la navegación de la plataforma."
+  },
+  {
+    "id": "HELP-003",
+    "category": "Ayuda y Soporte",
+    "subcategory": "Contenido",
+    "title": "Ítems desplegables de ayuda",
+    "description": "Las preguntas de ayuda se muestran en formato desplegable con explicación textual detallada.",
+    "tags": [
+      "ayuda",
+      "faq"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Formato acordeón."
+  },
+  {
+    "id": "HELP-004",
+    "category": "Ayuda y Soporte",
+    "subcategory": "Contenido",
+    "title": "Contenidos explicativos en texto",
+    "description": "La ayuda se basa en explicaciones textuales detalladas que describen el funcionamiento de la plataforma.",
+    "tags": [
+      "documentación",
+      "texto"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "No incluye vídeos en esta sección."
+  },
+  {
+    "id": "HELP-005",
+    "category": "Ayuda y Soporte",
+    "subcategory": "Navegación",
+    "title": "Menú lateral de navegación",
+    "description": "Dispone de un menú lateral que permite navegar directamente a cada sección de ayuda.",
+    "tags": [
+      "ayuda",
+      "navegación"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Menú vertical sincronizado con el contenido."
+  },
+  {
+    "id": "HELP-006",
+    "category": "Ayuda y Soporte",
+    "subcategory": "FAQ",
+    "title": "FAQ en formato cards",
+    "description": "Muestra preguntas frecuentes en formato de tarjetas continuas con scroll vertical.",
+    "tags": [
+      "faq",
+      "soporte"
+    ],
+    "platforms": {
+      "GT": "no",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": "Giunti Testing no usa cards para FAQ."
+  },
+  {
+    "id": "HELP-007",
+    "category": "Ayuda y Soporte",
+    "subcategory": "Tutoriales",
+    "title": "Tutoriales en vídeo",
+    "description": "Ofrece tutoriales en vídeo clasificados por temática para explicar el uso de la plataforma.",
+    "tags": [
+      "tutoriales",
+      "vídeo"
+    ],
+    "platforms": {
+      "GT": "no",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": "Vídeos embebidos desde YouTube."
+  },
+  {
+    "id": "HELP-008",
+    "category": "Ayuda y Soporte",
+    "subcategory": "Tutoriales",
+    "title": "Tutoriales por procesos funcionales",
+    "description": "Los vídeos explican procesos concretos como aplicar instrumentos, corregir, gestionar licencias o usuarios.",
+    "tags": [
+      "tutoriales",
+      "procesos"
+    ],
+    "platforms": {
+      "GT": "no",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": "Orientación práctica paso a paso."
+  },
+  {
+    "id": "HELP-009",
+    "category": "Ayuda y Soporte",
+    "subcategory": "API",
+    "title": "Documentación de API",
+    "description": "Dispone de una sección dedicada a documentación técnica de la API para integraciones externas.",
+    "tags": [
+      "api",
+      "documentación"
+    ],
+    "platforms": {
+      "GT": "no",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": "Giunti Testing no ofrece documentación de API visible."
+  },
+  {
+    "id": "HELP-010",
+    "category": "Ayuda y Soporte",
+    "subcategory": "API",
+    "title": "Autenticación API",
+    "description": "Explica el proceso de autenticación para consumir la API, incluyendo ejemplos de código.",
+    "tags": [
+      "api",
+      "autenticación"
+    ],
+    "platforms": {
+      "GT": "no",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": "Documentación técnica accesible desde Ayuda."
+  },
+  {
+    "id": "HELP-011",
+    "category": "Ayuda y Soporte",
+    "subcategory": "API",
+    "title": "Endpoints documentados por recurso",
+    "description": "Documenta endpoints de API organizados por recursos como productos, tests, clientes, informes y notificaciones.",
+    "tags": [
+      "api",
+      "endpoints"
+    ],
+    "platforms": {
+      "GT": "no",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": "Documentación estructurada por dominio funcional."
+  },
+  {
+    "id": "HELP-012",
+    "category": "Ayuda y Soporte",
+    "subcategory": "API",
+    "title": "Webhooks de notificaciones",
+    "description": "Documenta webhooks para recibir notificaciones automáticas relacionadas con tests y evaluaciones.",
+    "tags": [
+      "api",
+      "webhooks"
+    ],
+    "platforms": {
+      "GT": "no",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": "Soporte a integraciones reactivas."
+  },
+  {
+    "id": "HOME-001",
+    "category": "Home y Dashboard",
+    "subcategory": "Dashboard",
+    "title": "Dashboard principal",
+    "description": "Muestra un panel de inicio con información clave del estado del usuario y de la actividad en la plataforma.",
+    "tags": [
+      "dashboard",
+      "inicio"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Giunti Testing dispone de dashboard; VOL no."
+  },
+  {
+    "id": "HOME-002",
+    "category": "Home y Dashboard",
+    "subcategory": "Dashboard",
+    "title": "Visualización de saldo de créditos",
+    "description": "Muestra el saldo actual de créditos disponibles del usuario.",
+    "tags": [
+      "créditos",
+      "saldo"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Vinculado al modelo de usos de Giunti Testing."
+  },
+  {
+    "id": "HOME-003",
+    "category": "Home y Dashboard",
+    "subcategory": "Dashboard",
+    "title": "Compra de créditos",
+    "description": "Permite acceder directamente a la compra de créditos desde la página de inicio.",
+    "tags": [
+      "créditos",
+      "compra"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Acción directa desde el dashboard."
+  },
+  {
+    "id": "HOME-004",
+    "category": "Home y Dashboard",
+    "subcategory": "Dashboard",
+    "title": "Resumen de proyectos por estado",
+    "description": "Muestra contadores de proyectos creados, asignados, en progreso, realizados, puntuados o finalizados.",
+    "tags": [
+      "proyectos",
+      "estados"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Vista agregada del estado de la actividad."
+  },
+  {
+    "id": "HOME-005",
+    "category": "Home y Dashboard",
+    "subcategory": "Navegación",
+    "title": "Acceso directo al perfil",
+    "description": "Permite acceder directamente al perfil del usuario desde la página de inicio.",
+    "tags": [
+      "perfil",
+      "acceso"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Enlace directo visible."
+  },
+  {
+    "id": "HOME-006",
+    "category": "Home y Dashboard",
+    "subcategory": "Dashboard",
+    "title": "Vista rápida de proyectos individuales y grupales",
+    "description": "Muestra un resumen de proyectos diferenciando entre individuales y grupales.",
+    "tags": [
+      "proyectos",
+      "resumen"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Acceso rápido desde el dashboard."
+  },
+  {
+    "id": "HOME-007",
+    "category": "Home y Dashboard",
+    "subcategory": "Navegación",
+    "title": "Acceso directo a Proyectos",
+    "description": "Incluye un botón o enlace que lleva directamente a la vista completa de proyectos.",
+    "tags": [
+      "proyectos",
+      "navegación"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Atajo desde la página de inicio."
+  },
+  {
+    "id": "HOME-008",
+    "category": "Home y Dashboard",
+    "subcategory": "Ayuda",
+    "title": "Ayuda contextual en Home",
+    "description": "Muestra una sección “¿Necesitas ayuda?” con accesos directos a contenidos de ayuda relevantes.",
+    "tags": [
+      "ayuda",
+      "onboarding"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Ayuda integrada en el dashboard."
+  },
+  {
+    "id": "HOME-009",
+    "category": "Home y Dashboard",
+    "subcategory": "Ayuda",
+    "title": "Enlaces directos a ayuda funcional",
+    "description": "Permite acceder directamente a artículos de ayuda sobre creación de proyectos, estado, asignación de pruebas e informes.",
+    "tags": [
+      "ayuda",
+      "enlaces"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Enlaces a la sección de Ayuda."
+  },
+  {
+    "id": "HOME-010",
+    "category": "Home y Dashboard",
+    "subcategory": "Estructura",
+    "title": "Home sin dashboard agregado",
+    "description": "La página de inicio no muestra un dashboard con métricas agregadas del sistema.",
+    "tags": [
+      "inicio",
+      "estructura"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "VOL no utiliza dashboard de resumen."
+  },
+  {
+    "id": "HOME-011",
+    "category": "Home y Dashboard",
+    "subcategory": "Acciones",
+    "title": "Card de Aplicar evaluaciones",
+    "description": "Muestra una tarjeta dedicada a la aplicación de evaluaciones con búsqueda por instrumento o evaluación.",
+    "tags": [
+      "aplicación",
+      "inicio"
+    ],
+    "platforms": {
+      "GT": "no",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": "Acción principal de la Home de VOL."
+  },
+  {
+    "id": "HOME-012",
+    "category": "Home y Dashboard",
+    "subcategory": "Acciones",
+    "title": "Card de Corregir evaluaciones",
+    "description": "Muestra una tarjeta dedicada a la corrección de evaluaciones con búsqueda por instrumento o evaluado.",
+    "tags": [
+      "corrección",
+      "inicio"
+    ],
+    "platforms": {
+      "GT": "no",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": "Acción principal complementaria."
+  },
+  {
+    "id": "HOME-013",
+    "category": "Home y Dashboard",
+    "subcategory": "Promoción",
+    "title": "Promoción interna de productos",
+    "description": "Muestra una promoción interna (ej. SAFE) con enlace externo a contenido informativo.",
+    "tags": [
+      "promoción",
+      "marketing"
+    ],
+    "platforms": {
+      "GT": "no",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": "Redirige a blog externo de Vetor Editora."
+  },
+  {
+    "id": "HOME-014",
+    "category": "Home y Dashboard",
+    "subcategory": "Promoción",
+    "title": "Redirección a contenido externo",
+    "description": "Permite redirigir al usuario desde la Home a una URL externa con información de producto.",
+    "tags": [
+      "enlace externo",
+      "inicio"
+    ],
+    "platforms": {
+      "GT": "no",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": "Redirección fuera de la plataforma."
+  },
+  {
+    "id": "NOTIF-001",
+    "category": "Alertas y Notificaciones",
+    "subcategory": "Acceso",
+    "title": "Icono de notificaciones en cabecera",
+    "description": "Muestra un icono de campana en la cabecera que indica la existencia de notificaciones.",
+    "tags": [
+      "notificaciones",
+      "cabecera"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": "Disponible en ambas plataformas."
+  },
+  {
+    "id": "NOTIF-002",
+    "category": "Alertas y Notificaciones",
+    "subcategory": "Visualización",
+    "title": "Notificaciones en modal",
+    "description": "Las notificaciones se muestran en una ventana modal que se abre y se cierra desde la campana.",
+    "tags": [
+      "notificaciones",
+      "modal"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "Giunti Testing utiliza modal; VOL usa página dedicada."
+  },
+  {
+    "id": "NOTIF-003",
+    "category": "Alertas y Notificaciones",
+    "subcategory": "Contenido",
+    "title": "Notificaciones relacionadas con tests",
+    "description": "Las notificaciones se centran en eventos del ciclo de los tests (test recibido, test completado, etc.).",
+    "tags": [
+      "notificaciones",
+      "tests"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": "En el caso de Testing uso limitado a eventos evaluativos."
+  },
+  {
+    "id": "NOTIF-004",
+    "category": "Alertas y Notificaciones",
+    "subcategory": "Frecuencia",
+    "title": "Uso ocasional de notificaciones",
+    "description": "El sistema utiliza las notificaciones de forma limitada y puntual, sin un flujo continuo de mensajes.",
+    "tags": [
+      "notificaciones",
+      "frecuencia"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "no"
+    },
+    "status": "confirmed",
+    "notes": "VOL aprovecha para incluir algunas informaciones sobre Vetor Editora"
+  },
+  {
+    "id": "NOTIF-005",
+    "category": "Alertas y Notificaciones",
+    "subcategory": "Visualización",
+    "title": "Página dedicada de notificaciones",
+    "description": "Las notificaciones se visualizan en una página completa dedicada, no en una modal.",
+    "tags": [
+      "notificaciones",
+      "página"
+    ],
+    "platforms": {
+      "GT": "no",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": "VOL muestra las notificaciones en vista completa."
+  },
+  {
+    "id": "NOTIF-006",
+    "category": "Alertas y Notificaciones",
+    "subcategory": "Listado",
+    "title": "Búsqueda en notificaciones",
+    "description": "Permite buscar notificaciones mediante un campo de búsqueda dentro del listado general.",
+    "tags": [
+      "notificaciones",
+      "búsqueda"
+    ],
+    "platforms": {
+      "GT": "no",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": "Giunti Testing no permite búsqueda en notificaciones."
+  },
+  {
+    "id": "NOTIF-007",
+    "category": "Alertas y Notificaciones",
+    "subcategory": "Contenido",
+    "title": "Vista detallada de notificación",
+    "description": "Permite abrir una notificación para ver su título, contenido completo y remitente.",
+    "tags": [
+      "notificaciones",
+      "detalle"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": "En Giunti Testing el detalle es limitado; en VOL es completo."
+  },
+  {
+    "id": "NOTIF-008",
+    "category": "Alertas y Notificaciones",
+    "subcategory": "Contenido",
+    "title": "Contenido enriquecido en notificaciones",
+    "description": "Las notificaciones pueden incluir texto, imágenes y firma del remitente.",
+    "tags": [
+      "notificaciones",
+      "contenido"
+    ],
+    "platforms": {
+      "GT": "yes",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": "En VOL se usa ampliamente; en Giunti Testing es muy limitado."
+  },
+  {
+    "id": "NOTIF-009",
+    "category": "Alertas y Notificaciones",
+    "subcategory": "Eventos",
+    "title": "Notificaciones corporativas y de producto",
+    "description": "Envía notificaciones no solo de tests, sino también avisos corporativos y de producto.",
+    "tags": [
+      "notificaciones",
+      "corporativo"
+    ],
+    "platforms": {
+      "GT": "no",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": "VOL envía avisos de Vetor Editora."
+  },
+  {
+    "id": "NOTIF-010",
+    "category": "Alertas y Notificaciones",
+    "subcategory": "Frecuencia",
+    "title": "Alta frecuencia de notificaciones",
+    "description": "El sistema utiliza notificaciones de forma intensiva y recurrente como canal principal de comunicación.",
+    "tags": [
+      "notificaciones",
+      "frecuencia"
+    ],
+    "platforms": {
+      "GT": "no",
+      "VOL": "yes"
+    },
+    "status": "confirmed",
+    "notes": "Giunti Testing no usa notificaciones como canal central."
   }
 ]
